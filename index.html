@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alisson Valencia Web Design</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f3e5f5, #e1bee7, #ce93d8);
+      color: #333;
+      text-align: center;
+    }
+
+    /* Logo animado */
+    .logo {
+      font-size: 42px;
+      font-weight: bold;
+      color: #6a1b9a;
+      margin-top: 20px;
+      letter-spacing: 2px;
+      animation: aparecer 2s ease, brillo 3s infinite alternate;
+    }
+
+    @keyframes aparecer {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes brillo {
+      from {text-shadow: 0 0 10px #6a1b9a;}
+      to {text-shadow: 0 0 25px #ba68c8;}
+    }
+
+    /* Descripción */
+    .descripcion {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 15px auto;
+      padding: 10px;
+    }
+
+    /* Imagen principal */
+    .imagen-principal {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 15px;
+      margin: 20px auto;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      animation: subir 2s ease;
+    }
+
+    @keyframes subir {
+      from {transform: translateY(50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    /* Secciones */
+    section {
+      padding: 45px 25px;
+      margin: 25px auto;
+      max-width: 800px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+      text-align: left;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+
+    section h2 {
+      color: #6a1b9a;
+      text-align: center;
+    }
+
+    .servicio {
+      margin: 15px 0;
+      font-size: 16px;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background: #1ebe5d;
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #6a1b9a;
+      color: white;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Inicio -->
+  <h1 class="logo">Alisson Valencia Web Design</h1>
+
+  <p class="descripcion">
+    ¿Quieres que tu negocio se vea profesional en internet? ✨🌐  
+    Diseño páginas web <b>sencillas</b>, modernas y elegantes para que muestres tus productos y consigas más clientes fácilmente.
+  </p>
+
+  <img src="pagina.jpg" class="imagen-principal" alt="Diseño web">
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicio">
+      ✅ Páginas web sencillas y bonitas
+    </div>
+    <div class="servicio">
+      ✅ Botón directo a WhatsApp
+    </div>
+    <div class="servicio">
+      ✅ Colores elegantes y modernos
+    </div>
+    <div class="servicio">
+      ✅ Ideal para negocios pequeños
+    </div>
+
+    <h3>Precio desde: $50.000 COP</h3>
+
+    <a class="boton" href="https://wa.me/573102279397" target="_blank">
+      📲 Escríbeme por WhatsApp
+    </a>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+
+    <p>Hola, estoy lista para ayudarte a llevar tu negocio al siguiente nivel. 💻✨</p>
+
+    <p>Escríbeme directamente por WhatsApp:</p>
+    <a class="boton" href="https://wa.me/573102279397" target="_blank">
+      📲 WhatsApp
+    </a>
+
+    <p>O escríbeme por correo:</p>
+    <b>estradavaleciaalison@gmail.com</b>
+    <br>
+    <a class="boton" href="mailto:estradavaleciaalison@gmail.com">📧 Enviar correo</a>
+
+    <p>¡Contáctame sin compromiso! Te responderé lo antes posible y con mucho gusto. 😊</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Alisson Valencia - Diseño de páginas web</p>
+  </footer>
+
+</body>
+</html>
